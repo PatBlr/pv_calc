@@ -12,7 +12,7 @@ export class AppComponent {
   cloud_stored: number = 0;
   cloud_use: string = '0';
   sold: number = 0;
-  sell_price: string = '0,00';
+  sell_price: string = '0.00';
   revenue: number = 0;
   cloud_cost: string = '0';
   result: number = 0;
