@@ -7,14 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Calc';
-  pv_prod: string = '0';
-  pv_use: string = '0';
+  pv_prod: string = '';
+  pv_use: string = '';
   cloud_stored: number = 0;
-  cloud_use: string = '0';
+  cloud_use: string = '';
   sold: number = 0;
-  sell_price: string = '0.00';
+  sell_price: string = '';
   revenue: number = 0;
-  cloud_cost: string = '0';
+  cloud_cost: string = '';
   result: number = 0;
 
   constructor() {}

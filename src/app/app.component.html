@@ -7,6 +7,7 @@
         [ngModel]="pv_prod"
         (ngModelChange)="update_pv_prod($event)"
         style="border: 1px solid grey"
+        placeholder="0"
       />
     </div>
     <div class="sign">&minus;</div>
@@ -17,6 +18,7 @@
         [ngModel]="pv_use"
         (ngModelChange)="update_pv_use($event)"
         style="border: 1px solid green"
+        placeholder="0"
       />
     </div>
     <div class="sign">&equals;</div>
@@ -48,6 +50,7 @@
         [ngModel]="cloud_use"
         (ngModelChange)="update_cloud_use($event)"
         style="border: 1px solid blue"
+        placeholder="0"
       />
     </div>
     <div class="sign">&equals;</div>
@@ -79,6 +82,7 @@
         [ngModel]="sell_price"
         (ngModelChange)="update_sell_price($event)"
         style="border: 1px solid black"
+        placeholder="0"
       />
     </div>
     <div class="sign">&equals;</div>
@@ -94,7 +98,7 @@
   </div>
   <div class="row">
     <div class="field">
-      <br /><label>PV-Einnahme</label>
+      <br /><label>PV-Einnahme</label> 
       <input
         type="tel"
         [ngModel]="revenue"
@@ -110,6 +114,7 @@
         [ngModel]="cloud_cost"
         (ngModelChange)="update_cloud_cost($event)"
         style="border: 1px solid black"
+        placeholder="0"
       />
     </div>
     <div class="sign">&equals;</div>
